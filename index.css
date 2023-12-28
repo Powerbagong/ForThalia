@@ -190,3 +190,28 @@ p.wm a {
     width: fit-content;
     cursor: pointer;
   }
+
+  @media (max-width: 600px) {
+    .body {
+        background-size: auto; /* Adjust background size for smaller screens */
+    }
+    .open h2 {
+        max-width: 100%; /* Allow text to take full width on smaller screens */
+    }
+
+    .atas img {
+        height: 100px; /* Adjust image height for smaller screens */
+    }
+
+    .atas h2 {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+
+    p {
+        padding: 30px; /* Adjust padding for paragraphs on smaller screens */
+    }
+
+    img, video {
+        width: 100%; /* Make images and videos take full width on smaller screens */
+    }
+}
