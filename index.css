@@ -55,9 +55,10 @@
 } 
 
 .atas img { 
+    width: 80%;
     height: 200px; 
     margin-bottom: 50px; 
-    padding: 20px 30px; 
+    padding: 20px 0px; 
     background: white; 
     border-radius: 20px; 
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123); 
@@ -172,6 +173,7 @@ p.wm a {
   }
 
   video{
+    margin: 20px;
     width: 610px;
     object-fit: contain;
   }
@@ -212,6 +214,6 @@ p.wm a {
     }
 
     img, video {
-        width: 100%; /* Make images and videos take full width on smaller screens */
+        width: 90%; /* Make images and videos take full width on smaller screens */
     }
 }
